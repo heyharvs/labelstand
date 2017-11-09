@@ -1,4 +1,4 @@
-$fn = 50;
+$fn = 50 / 1;
 
 // basic label dimensions
 
@@ -10,7 +10,7 @@ label_height = 13; // [13:1/2 inch, 16: 5/8 inch, 19.2: 3/4 inch, 26.6: 1 inch]
 label_thickness = 1 / 1; // 1mm thickness
 
 // the angle of the label
-label_angle = 60; // [45, 60, 75]<F5>
+label_angle = 60; // [45, 60, 75]
 
 
 module panel() {
